@@ -146,6 +146,24 @@ accelerate launch --mixed_precision="fp16" finetune_instruct_pix2pix.py \
 --push_to_hub
 ```
 
+# Web Service
+
+<table>
+<tbody>
+<tr>
+<td align="center"><img height="350" alt="image1" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e5b2bca6-8026-438c-90dd-d01116830326/6e53b1e7-6892-42ca-961b-a2c01bdfb6b2/Untitled.png"/><img height="350" alt="image1" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e5b2bca6-8026-438c-90dd-d01116830326/ccab7e7e-a1f4-4586-982f-35d00610f8a4/Untitled.png"/><img height="350" alt="image1" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e5b2bca6-8026-438c-90dd-d01116830326/be65b716-d4b0-4d6e-89e9-89db62f08538/Untitled.png"/><br/><sub><b>Collect page(Main page) </b><br/> 포켓몬의 이름 및 속성 정보 제공 <br/> 포켓몬 아이템 선택 시 생성 페이지로 이동 <br/>상단- 검색창 & 카테고리 버튼 <br/> 이름 및 속성 검색 / 카테고리 검색 / 포켓몬 선택 섹션 </sub><br/></td>
+<tr/>
+<tr><td align="center"><img width="350" alt="image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/e88cb211-a50b-4293-a496-b723a9e482c3"><br/><sub><b>Create page </b><br/>생성할 포켓몬 이름 작성 / Prompt에 채색할 Text 입력 <br/> 포켓볼 이미지 클릭 시 로딩 페이지로 이동 </sub><br /></td></tr>
+<tr>
+<td align="center"><img height="350" alt="image2" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/e5b2bca6-8026-438c-90dd-d01116830326/df36f547-0965-48bb-90de-6f185d9d0d17/Untitled.png"/><<br/><sub><b>Loading page </b><br/>로딩 중 상태 확인 <br/> 모델링이 완료되면 결과 페이지로 이동</sub><br /></td>
+</tr>
+<tr>
+<td align="center"><img height="250" alt="image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/cbb20ab1-9d83-4438-8734-7a72ff37d891"/><br/><sub><b>Result page</b><br/>생성된 이미지 확인 및 저장</sub><br /></td>
+</tr>
+</tbody>
+</table>
+
+  
 ## 📍image resource
 
 <a href="https://www.pinterest.co.kr/">CollectPage Header background by Pinterest</a>
@@ -153,3 +171,7 @@ accelerate launch --mixed_precision="fp16" finetune_instruct_pix2pix.py \
 <a href="https://www.flaticon.com/kr/free-icons/-">pokeball image, search-icon image by Flaticon</a>
 
 <a href="https://www.pxfuel.com/ko/desktop-wallpaper-sshss">CollectPage main background by Pxfuel</a>
+
+## 📍font resource
+
+<a href=”https://noonnu.cc/font_page/1108">둘기마요고딕</a>
