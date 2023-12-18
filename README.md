@@ -146,10 +146,7 @@ accelerate launch --mixed_precision="fp16" finetune_instruct_pix2pix.py \
 --push_to_hub
 ```
 
-# Web Service
-
-
-
+# 🖥️Web Service
 
 <table>
   <tbody>
