@@ -152,18 +152,59 @@ accelerate launch --mixed_precision="fp16" finetune_instruct_pix2pix.py \
 
 
 <table>
-<tbody>
-<tr>
-<td align="center"><img width="250" alt="main image1" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/a11068c0-4e56-47a6-b0e3-9dc68efb0873"><img width="250" alt="main image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/1a92a02a-c473-4bd6-8d5b-55c380effcf4"><img width="250" alt="main search image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/05ae8e2b-5d4b-4cd9-aba7-fdc6bed37de3"><br/><sub><b>Collect page(Main page) </b><br/> 포켓몬의 이름 및 속성 정보 제공 <br/> 포켓몬 아이템 선택 시 생성 페이지로 이동 <br/>상단- 검색창 & 카테고리 버튼 <br/> 이름 및 속성 검색 / 카테고리 검색 / 포켓몬 선택 섹션 </sub><br/></td>
-<tr/>
-<tr><td align="center"><img width="350" alt="image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/e88cb211-a50b-4293-a496-b723a9e482c3"><br/><sub><b>Create page </b><br/>생성할 포켓몬 이름 작성 / Prompt에 채색할 Text 입력 <br/> 포켓볼 이미지 클릭 시 로딩 페이지로 이동 </sub><br /></td></tr>
-<tr>
-<td align="center"><img width="357" alt="loading image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/d21a0c79-1231-4a4f-9e8c-9b3144b8f269"><br/><sub><b>Loading page</b><br/>로딩 중 상태 확인 <br/> 모델링이 완료되면 결과 페이지로 이동</sub><br /></td>
-</tr>
-<tr>
-<td align="center"><img height="357" alt="result image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/cbb20ab1-9d83-4438-8734-7a72ff37d891"/><br/><sub><b>Result page</b><br/>생성된 이미지 확인 및 저장</sub><br /></td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="357" alt="main image1" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/a11068c0-4e56-47a6-b0e3-9dc68efb0873">
+        <img width="357" alt="main image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/1a92a02a-c473-4bd6-8d5b-55c380effcf4">
+        <img width="357" alt="main search image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/05ae8e2b-5d4b-4cd9-aba7-fdc6bed37de3">
+        <br/>
+        <sub>
+          <b>Collect page(Main page)</b><br/>
+          포켓몬의 이름 및 속성 정보 제공<br/>
+          포켓몬 아이템 선택 시 생성 페이지로 이동<br/>
+          상단- 검색창 & 카테고리 버튼<br/>
+          이름 및 속성 검색 / 카테고리 검색 / 포켓몬 선택 섹션
+        </sub>
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="350" alt="image2" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/e88cb211-a50b-4293-a496-b723a9e482c3">
+        <br/>
+        <sub>
+          <b>Create page</b><br/>
+          생성할 포켓몬 이름 작성 / Prompt에 채색할 Text 입력<br/>
+          포켓볼 이미지 클릭 시 로딩 페이지로 이동
+        </sub>
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img width="357" alt="loading image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/d21a0c79-1231-4a4f-9e8c-9b3144b8f269">
+        <br/>
+        <sub>
+          <b>Loading page</b><br/>
+          로딩 중 상태 확인<br/>
+          모델링이 완료되면 결과 페이지로 이동
+        </sub>
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img height="357" alt="result image" src="https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/assets/109502469/cbb20ab1-9d83-4438-8734-7a72ff37d891"/>
+        <br/>
+        <sub>
+          <b>Result page</b><br/>
+          생성된 이미지 확인 및 저장
+        </sub>
+        <br/>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
   
