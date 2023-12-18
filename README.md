@@ -104,7 +104,7 @@ CLIP은 meta에서 2022년에 발표한 모델로 10억개의 데이터 기반�
 | --- | --- |
 | Turn it into a drawing with a <unk> body, <unk> face, and <unk> horns. | Turn it into a close up of a cartoon bird with a red head and white wings, style of pokemon, werecrow, ultra-high resolution, kid named finger, cleanest image, wildfire, metalhead, soaring, tuxedo, black white red, folklore |
 
-# 🖥️FINE TUNING
+# 🛠️FINE TUNING
 
 이제 필요한 학습에 필요한 데이터셋이 모두 구축이 되었으니 instruct pix2pix 모델을 포켓몬 채색에 최적화된 모델로 만들기 위해 fine-tuning을 해볼 것이다. fine-tuning을 할 때 다음과 같은 github, huggingface 레퍼런스를 참고하여 하였다.
 
