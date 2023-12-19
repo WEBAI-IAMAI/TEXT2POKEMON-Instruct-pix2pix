@@ -1,0 +1,481 @@
+@font-face {
+  font-family: "Dovemayo_gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 영어 폰트 */
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Dovemayo_gothic" !important;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #eaeaea;
+  width: 720px;
+  min-height: 100%;
+}
+
+/* CollectPage */
+.collectHeader::before {
+  content: "";
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transition: 0.5s;
+}
+
+.collectHeader h1 {
+  color: #ffdc3c;
+  font-size: 2.5rem;
+  font-family: "SBAggroB";
+}
+
+/* 포켓몬 이름 검색창 */
+#search {
+  position: relative;
+  padding: 20px 0 30px;
+  display: inline-block;
+  width: 90%;
+}
+
+.searchBox {
+  width: 45%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  transition: 0.5s;
+  box-shadow: 2px 2px 4px 1px #706c41;
+}
+.searchBox:focus {
+  outline: none;
+  border: 1px solid #ffdc3c;
+}
+
+#search img {
+  position: absolute;
+  top: 35%;
+  right: 190px;
+  width: 17px;
+  cursor: pointer;
+}
+
+/* 포켓몬 속성 카테고리 */
+#category {
+  position: relative;
+}
+
+#category p {
+  display: inline-block;
+  color: #ff4646;
+  background-color: #ffffffdd;
+  padding: 3px 6px;
+  border-radius: 30px;
+  margin: 8px;
+  font-size: 0.8rem;
+  font-family: "SBAggroB";
+}
+
+.att-button button {
+  background-color: rgb(253, 251, 247);
+  border: 1.8px solid;
+  border-radius: 8px;
+  padding: 3px 8px;
+  width: 50px;
+  height: 30px;
+  margin-top: 3px;
+  font-size: 0.9rem;
+
+  + button {
+    margin-left: 4px;
+  }
+}
+
+.att-button button:hover {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.505);
+  transform: scale(1.2);
+}
+
+#btn0 {
+  border-color: rgb(251, 173, 5);
+  font-weight: bold;
+}
+#btn1 {
+  border-color: rgba(255, 0, 0);
+}
+#btn2 {
+  border-color: lightskyblue;
+}
+#btn3 {
+  border-color: rgb(36, 237, 18);
+}
+#btn4 {
+  border-color: rgb(15, 7, 50);
+}
+#btn5 {
+  border-color: rgb(96, 90, 100);
+}
+#btn6 {
+  border-color: rgb(98, 118, 222);
+}
+#btn7 {
+  border-color: rgb(19, 38, 135);
+  width: 60px;
+}
+#btn8 {
+  border-color: rgb(76, 38, 104);
+}
+#btn9 {
+  border-color: rgb(255, 255, 0);
+}
+#btn10 {
+  border-color: rgba(115, 199, 255, 0.518);
+}
+#btn11 {
+  border-color: rgb(156, 93, 58);
+}
+#btn12 {
+  border-color: rgb(7, 37, 40);
+}
+#btn13 {
+  border-color: rgba(255, 201, 251, 0.607);
+  width: 60px;
+}
+#btn14 {
+  border-color: rgb(255, 142, 50);
+}
+#btn15 {
+  border-color: rgb(0, 0, 0);
+}
+#btn16 {
+  border-color: rgb(255, 74, 249);
+  width: 60px;
+}
+#btn17 {
+  border-color: rgb(147, 100, 107);
+  width: 60px;
+}
+#btn17 {
+  border-color: rgb(0, 0, 0);
+}
+
+/* 포켓몬 리스트 */
+.pokemon-list::before {
+  content: "";
+  background-image: url("./img/pxfuel.jpg");
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  transition: 0.5s;
+}
+
+.PokemonItem + .PokemonItem {
+  margin: 20px 0;
+}
+
+.PokemonItem a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  border: 1.5px solid rgb(255, 231, 111);
+  border-radius: 20px 35px;
+  background-color: #fff;
+  box-shadow: 2px 4px 4px 1px #97946b;
+}
+
+.PokemonItem a:hover {
+  transform: scale(1.07);
+}
+
+.PokemonItem a:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 15%;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-image: url("./img/pokeball.png");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  animation: floating 1.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(5px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.PokemonItem img {
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+
+.textContainer {
+  font-size: 1.2rem;
+  & > p {
+    margin: 0;
+    + p {
+      margin-top: 8px;
+    }
+  }
+}
+
+/* pagination */
+#pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 12px 0 20px;
+  font-size: 1.4rem;
+}
+
+.pagination-number,
+.pagination-button {
+  background-color: transparent;
+  border: none;
+  margin: 0.25rem 0.25rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.2rem;
+}
+
+.pagination-number.active {
+  font-size: 0px;
+  background-image: url("static/img/pokeball.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*-------------------------------------------------------------------------*/
+/* CreatePage */
+
+.create {
+  height: 100vh;
+  min-height: 850px;
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  -webkit-animation: huerotator 10s infinite alternate;
+  animation: huerotator 10s infinite alternate;
+}
+@keyframes huerotator {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.createHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.createHeader h1 {
+  color: #f3f9ff;
+  font-family: "SBAggroB";
+  margin: 0;
+}
+
+.createContainer {
+  background-color: rgba(0, 0, 0, 0.427);
+  height: 750px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.writeName {
+  display: inline-block;
+  background-color: #86a8e798;
+
+  & > label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #f3f9ff;
+  }
+  & > input {
+    border: 1px solid #86a8e798;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 20px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.drawing {
+  height: 400px;
+}
+
+#colorText {
+  font-size: 1.1rem;
+  & > h4,
+  label {
+    color: #f3f9ff;
+  }
+  & > p {
+    color: rgb(248, 236, 174);
+  }
+  label {
+    font-size: 1.4rem;
+  }
+}
+
+#prompt {
+  width: 80%;
+  border: 1px solid #7f7fd59c;
+  border-radius: 8px;
+  padding: 10px 60px 10px 12px;
+  &:focus {
+    outline: none;
+  }
+}
+
+#pokeball > img {
+  position: absolute;
+  width: 22px;
+  top: 25%;
+  right: 40px;
+  cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* LoadingPage */
+
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  -webkit-animation: huerotator 10s infinite alternate;
+  animation: huerotator 10s infinite alternate;
+
+  & > h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  & > img {
+    width: 40px;
+    animation: motion 0.7s linear 0s infinite alternate;
+  }
+}
+
+@keyframes huerotator {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+/*-------------------------------------------------------------------------*/
+
+/* ResultPage */
+
+.result {
+  background: #a1ffce;
+  background: -webkit-linear-gradient(to right, #faffd1, #a1ffce);
+  background: linear-gradient(to right, #faffd1, #a1ffce);
+}
+
+.completedImg {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > img {
+    width: 60%;
+    height: 480px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 3px 3px 6px 3px #85a38c;
+
+    &:hover {
+      transform: scale(1.07);
+      transition: 0.5s;
+    }
+  }
+
+  & > h1 {
+    color: rgb(103, 100, 100);
+    padding-top: 30px;
+  }
+
+  & > button {
+    background-color: #8cd57f;
+    color: white;
+    padding: 4px 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    &:hover {
+      background-color: #70a966;
+    }
+  }
+}
