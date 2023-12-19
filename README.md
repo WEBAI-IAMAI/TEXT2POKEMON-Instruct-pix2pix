@@ -10,14 +10,11 @@ We have fine-tuned the Instruct Pix2Pix model to create a system that can colori
 
 
 # datasets
-<br>
-<br>
-
-# datasets 개요
+## datasets 개요
 
 이 프로젝트는 instruct pix2pix 모델을 사용하여 흑백 이미지를 사용자의 캡션에 맞게 채색하는 기술을 개발하고 테스트 하기 위한 것입니다. 목표는 흑백 이미지에 사용자의 캡션에 따라 색상을 부여하여 컬러 이미지로 출력하는 것 입니다. 이러한 기술은 역사적 사진, 예술 작품 등 다양한 분야에서 활용 될 수 있습니다.
 
-# datasets 출처
+## datasets 출처
 
 본 데이터셋은 svjack/pokemon-blip-captions-en-ja의 캡션 데이터, Sketch2Pokemon의 컬러, 흑백 이미에 해당하며, 2023년 7월 기준으로 수집되었습니다. 데이터 사용에 대한 라이선스 및 저작권 정보는
 <br>
@@ -36,9 +33,7 @@ svjack/pokemon-blip-captions-en-ja 에서 캡션을 수집, Sketch2Pokemon에서
 
 사용자는 자신의 데이터셋을 구조에 맞게 준비해야 합니다. 각 이미지에 맞게 이미지 경로를 정확하게 매칭 시키고, 이미지를 설명하는 캡션을 추가해야 합니다.
 
-?? 데이터 셋의 저작권 여부 같은 것도 적어야한다는데 포켓몬의 경우 닌텐도꺼라고 적어놔야하나요/?
-
-# datasets 구조
+## datasets 구조
 
 사용된 데이터셋은 흑백 이미지, 컬러 이미지와 컬러 이미지를 설명하는 캡션이 쌍으로 이루어져 있는 구조입니다.
 
