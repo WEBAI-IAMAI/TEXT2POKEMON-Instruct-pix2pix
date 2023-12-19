@@ -47,7 +47,8 @@ svjack/pokemon-blip-captions-en-ja 에서 캡션을 수집, Sketch2Pokemon에서
 👉 a drawing of a green pokemon with red eyes
 
 </aside>
-
+<br>  
+<br>  
 위 쌍을 이루는 흑백 이미지, 컬러 이미지와 캡션은 하나의 예시입니다.
 
 이 데이터 셋은 학습에 필요한 것으로, 캡션의 경우 더 많은 색상 정보와 특징을 담는다면, 모델 향상에 도움이 됩니다.
