@@ -55,7 +55,7 @@ svjack/pokemon-blip-captions-en-ja 에서 캡션을 수집, Sketch2Pokemon에서
 
 # image captioning
 
-# 🖼️image captioning
+## 🖼️image captioning
 
 우리가 가진 dataset 에 대해서 알맞는 caption을 자동화하여 생성할 수 있도록 image captioning모델을 사용하여
 
