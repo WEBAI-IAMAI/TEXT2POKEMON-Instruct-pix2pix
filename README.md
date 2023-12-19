@@ -41,7 +41,7 @@ svjack/pokemon-blip-captions-en-ja 에서 캡션을 수집, Sketch2Pokemon에서
 - 컬러 이미지 : 흑백 이미지와 쌍을 이루는 원본 컬러 이미지입니다. 이 컬러 이미지들은 모델이 채색 패턴을 학습하는 데 사용됩니다.
 - 캡션 : 원본 컬러 이미지를 설명하는 짧은 문장입니다. 이 캡션은 원본 컬러 이미지의 색상 정보, 특징 정보를 포함합니다.
 
-![0.jpg](datasets%20694d4be321bd469488442bcff68377bf/0.jpg)
+![ex_data.jpg](https://github.com/WEBAI-IAMAI/TEXT2POKEMON-Instruct-pix2pix/blob/main/img/ex_data.jpg)
 
 <aside>
 👉 a drawing of a green pokemon with red eyes
